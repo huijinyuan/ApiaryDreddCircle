@@ -3,7 +3,7 @@ version: 2.1
 # Use a package of configuration called an orb.  # declare what orbs we are going to use
 orbs:
 # the node orb provides common node-related configuration 
-  node: circleci/node@12.18.2 
+  node: circleci/node@2.0.2 
 
 jobs:
   build:
