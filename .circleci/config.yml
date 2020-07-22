@@ -12,7 +12,8 @@ jobs:
     steps:
     # checkout is similar as "git clone", for get the code to execute. 
       - checkout
-      - run: npm install dredd@13.1.2 --global
+      #sudo is for the Linux environment to install SW
+      - run: sudo npm install dredd@13.1.2 --global
       - run: dredd
       
 # define the workflows key
